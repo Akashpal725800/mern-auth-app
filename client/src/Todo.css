@@ -1,0 +1,72 @@
+.todo-container {
+  width:1000px;
+  margin: 30px auto;
+   background:linear-gradient(to top,#a18cd1 0%,#fbc2eb 100%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.input-section button {
+  background: #6c63ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.task-list button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+.task-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
